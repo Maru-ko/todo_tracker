@@ -1,4 +1,4 @@
-## Sinatra app for Todo webapp ##
+## Sinatra app for Todo webapp ver 1.0 ##
 
 ### 行くよう！ ###
 
