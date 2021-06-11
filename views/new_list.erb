@@ -1,0 +1,14 @@
+<form action="/lists" method="post"> <!-- used to collect user input / action when this form submits it will send data to that URl -->
+  <dl> <!-- description list -->
+    <dt><!-- description terms -->
+    <label for="list_name">Please enter the new name for the list.</label> <!-- defines a label for several elements. -->
+    </dt>
+    <dd><!-- description -->
+      <input name="list_name" placeholder="List Name" type="List Name" type="text" value="">
+    </dd>
+  </dl>
+  <fieldset class="actions"><!-- this tag is used to group related elements in a form. Draws a box around the related elments -->
+    <input type="submit" value="Save">
+    <a href="/lists">Cancel</a>
+  </fieldset>
+</form>

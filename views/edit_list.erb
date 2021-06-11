@@ -1,0 +1,26 @@
+ <section id="todos">
+  <header>
+    <h2>Editing '<%= @list[:name] %>'</h2>
+    <ul>
+      <li>
+        <form action="/lists/<%= params[:id] %>/destroy" method="post">
+          <button type="submit" class="delete">Delete List</button>
+        </form>
+    </ul>
+  </header>   
+ </section>
+
+<form action="/lists/<%= params[:id] %>" method="post"> <!-- used to collect user input / action when this form submits it will send data to that URl -->
+  <dl> <!-- description list -->
+    <dt><!-- description terms -->
+    <label for="list_name">Please enter the name for your new list:</label> <!-- defines a label for several elements. -->
+    </dt>
+    <dd><!-- description -->
+      <input name="list_name" placeholder="List Name" type="List Name" type="text" value="<%= params[:list_name] || @list[:name] %> ">
+    </dd>
+  </dl>
+  <fieldset class="actions"><!-- this tag is used to group related elements in a form. Draws a box around the related elments -->
+    <input type="submit" value="Save">
+    <a href="/lists/<%= params[:id] %>">Cancel</a>
+  </fieldset>
+</form>
