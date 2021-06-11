@@ -6,4 +6,3 @@
 - need to implement additional features
 - refactor code
 - change overall color layout
-
