@@ -118,14 +118,14 @@ form input[type="submit"]:hover {
 }
 
 form fieldset.actions a {
-  color: #2FC1FA;
+  color: ##FAEF2F;
   -webkit-transition: color 200ms ease;
   -moz-transition: color 200ms ease;
   -o-transition: color 200ms ease; 
 }
 
 form fieldset.actions a:hover {
-  color: #b00b00; 
+  color: #ffffff; 
 }
 
 .flash {
