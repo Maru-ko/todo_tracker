@@ -5,8 +5,8 @@ a {
 
 body {
   font: normal 20px "PT Sans", Helvetica, Arial, sans-serif;
-  color: #3f3f3f;
-  background: #ffffff; 
+  color: #FAEE16;
+  background: #2FC1FA; 
 }
 
 body > header {
@@ -19,7 +19,7 @@ body > header h1 {
   display: inline-block;
   width: 38%;
   font-size: 30px;
-  color: #dd5f4f; 
+  color: #FFA163F; 
 }
 
 body > header .actions {
@@ -35,7 +35,7 @@ body > header .actions a {
 }
 
 body > header .actions a:hover {
-  color: #dd5f4f; 
+  color: #FA486B; 
 }
 
 body > header .actions a.add:before {
@@ -92,7 +92,7 @@ form input[type="text"] {
   height: 58px;
   padding: 15px 20px;
   font: normal 20px "PT Sans", Helvetica, Arial, sans-serif;
-  border: 1px solid #a4a4a4;
+  border: 1px solid #26829E;
   border-radius: 8px;
   box-sizing: border-box; 
 }
@@ -101,10 +101,10 @@ form input[type="submit"] {
   padding: 12px 45px;
   margin: 0 40px 0 0;
   font: normal 24px "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ffffff;
+  color: #2FC1FA;
   border: none;
   border-radius: 8px;
-  background: #dd5f4f;
+  background: #FA486B;
   -webkit-appearance: none;
   -moz-appearance: none;
   -webkit-transition: background-color 200ms ease;
@@ -113,12 +113,12 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: #d13b28;
+  background-color: #FAF148;
   cursor: pointer; 
 }
 
 form fieldset.actions a {
-  color: #666666;
+  color: #2FC1FA;
   -webkit-transition: color 200ms ease;
   -moz-transition: color 200ms ease;
   -o-transition: color 200ms ease; 
@@ -132,7 +132,7 @@ form fieldset.actions a:hover {
   max-width: 960px;
   padding: 10px 20px;
   margin: 20px auto 1.5em auto;
-  color: #3399cc;
+  color: #D341F2;
   background: #CBE5F2; 
 }
 
@@ -142,13 +142,13 @@ form fieldset.actions a:hover {
 }
 
 .flash.error {
-  color: #ff6633;
-  background: #FFCFBF; 
+  color: #58F241;
+  background: #1081AD; 
 }
 
 .flash.success {
-  color: #33cc99;
-  background: #CBF2E5; 
+  color: #DB3F1A;
+  background: #FAEE16; 
 }
 
 #no_list {
@@ -162,7 +162,7 @@ form fieldset.actions a:hover {
   padding: 18px 25px 18px 57px;
   margin: 0 0 10px 0;
   border-radius: 8px;
-  background: #f6f6f6; 
+  background: #FA486B; 
 }
 
 #lists li:before {
@@ -175,25 +175,25 @@ form fieldset.actions a:hover {
   margin: -8px 0 0 0;
   content: "";
   border-radius: 100%;
-  background: #dd5f4f; 
+  background: #FA486B; 
 }
 
 #lists li.complete:before {
   width: 28px;
   height: 28px;
   margin: -15px 0 0 -7px;
-  border: 1px solid #666666;
+  border: 1px solid #ffffff;
   border-radius: 4px;
-  background: #ffffff url("../images/icon_check.png") 50% 50% no-repeat; 
+  background: #2FC1FA url("../images/icon_check.png") 50% 50% no-repeat; 
 }
 
 #lists li.complete h2 {
-  color: #bebebe;
+  color: #1081AD;
   text-decoration: line-through; 
 }
 
 #lists li.complete p {
-  color: #bebebe; 
+  color: #1081AD; 
 }
 
 #lists a {
@@ -211,13 +211,13 @@ form fieldset.actions a:hover {
   width: 5%;
   font-size: 0.9em;
   float: right;
-  color: #666666; 
+  color: #ffffff; 
 }
 
 #todos header {
   padding: 15px 20px;
   border-radius: 6px;
-  background: #f6f6f6; 
+  background: #FA486B; 
 }
 
 #todos header h2 {
@@ -280,7 +280,7 @@ form fieldset.actions a:hover {
 }
 
 #todos header ul a.edit:hover {
-  color: #dd5f4f;
+  color: #FA486B;
 }
 
 #todos header ul a.edit:before {
@@ -293,7 +293,7 @@ form fieldset.actions a:hover {
   padding: 0;
   border: none;
   background-color: transparent;
-  color: #3f3f3f;
+  color: #FAEE16;
   font: normal 20px "PT Sans", Helvetica, Arial, sans-serif;
   cursor: pointer;
   -webkit-transition: color 200ms ease;
@@ -315,7 +315,7 @@ form fieldset.actions a:hover {
 }
 
 #todos header ul button.check:before {
-  border: 2px solid #3f3f3f;
+  border: 2px solid #FAEE16;
   background: transparent url("../images/icon_check.png") 50% 50% no-repeat; 
 }
 
@@ -329,7 +329,7 @@ form fieldset.actions a:hover {
 }
 
 #todos.complete header h2 {
-  color: #bebebe;
+  color: #1081AD;
   text-decoration: line-through; 
 }
 
@@ -372,14 +372,14 @@ form fieldset.actions a:hover {
   height: 28px;
   width: 28px;
   color: transparent;
-  border: 1px solid #666666;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   background-color: transparent;
   cursor: pointer; 
 }
 
 #todos > ul li .check [type="submit"]:hover {
-  border-color: #dd5f4f; 
+  border-color: #FA486B; 
 }
 
 #todos > ul li .delete {
@@ -405,7 +405,7 @@ form fieldset.actions a:hover {
 }
 
 #todos > ul li.complete h3 {
-  color: #bebebe;
+  color: #1081AD;
   text-decoration: line-through; 
 }
 
