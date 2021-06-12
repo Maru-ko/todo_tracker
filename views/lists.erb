@@ -1,8 +1,8 @@
 <!-- we will create an unordered list -->
 <ul id="lists">  <!-- ul = unordered list -->
-  <% sort_lists(@lists) do |list, idx| %>
+  <% sort_lists(@lists) do |list| %>
   <li class="<%= list_class(list) %>">
-      <a href="/lists/<%= idx %>">
+      <a href="/lists/<%= list[:id] %>">
         <h2><%= list[:name] %></h2>
         <p>
           <%= todos_remaining_count(list) %> / <%= todos_count(list) %>
@@ -15,3 +15,4 @@
 <% content_for :header_links do %>
   <a class="add" href="/lists/new">New List</a>
 <% end %>
+
