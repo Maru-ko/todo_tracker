@@ -216,7 +216,7 @@ post '/lists/:list_id/todos/:id' do
 
   todo_id = params[:id].to_i
   is_completed = params[:completed] == 'true'
-  todo = @list[:todos].find { |todo_| todo_[:id] == todo_id } #fixed rubocop warning
+  todo = @list[:todos].find { |todo_| todo_[:id] == todo_id } # fixed rubocop warning
   todo[:completed] = is_completed
 
   session[:success] = 'the todo has been updated.'
