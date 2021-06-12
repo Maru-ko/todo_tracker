@@ -2,6 +2,8 @@
 
 ### 行くよう！ ###
 
+visit: https://ls-rb170-sinatra-todos-trkr1.herokuapp.com/lists
+
 #### -version 2.0 ###
 - Case Sensitive Validation - Prevents duplicate list names
 - code refactored, technical improvements from previous version
